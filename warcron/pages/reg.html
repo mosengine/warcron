@@ -1,0 +1,427 @@
+<form name="createaccount" method="post" action="save_user.php">
+
+<script type="text/javascript">
+function ca_valid() {
+
+	if (document.createaccount.update.value=="userinfo") {
+		document.createaccount.step.value='verifyaccount';
+	} else if (document.createaccount.update.value=="userinfo2") {
+		document.createaccount.step.value='verifyaccount';
+	} else {
+		document.createaccount.step.value="accountinfo";
+		document.createaccount.update.value="userinfo";
+	}
+	document.createaccount.save.value="true";
+
+	return true;
+}
+</script>
+			<table style="border-left: 1px solid black; border-right: 1px solid black" width="90%" cellspacing="0" cellpadding="0" border="0">
+			<tbody><tr>
+
+				<td style="background-image: url('images/frame-left-bg.gif'); background-repeat: repeat-y;" width="60%" bgcolor="#E0BC7E">
+
+					<table style="background-image: url('images/frame-right-bg.gif'); background-repeat: repeat-y; background-position: top right;" width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tbody><tr>
+						<td rowspan="2" width="100%">
+
+
+			<div style="position: relative;">
+
+				<div style="font-family:arial,palatino, georgia, verdana, arial, sans-serif; color:#200F01; font-size: 10pt; font-weight: normal; background-image: url('new-hp/images/layout/parchment-light.jpg'); border-style: solid; border-color: #000000; border-width: 0px; border-bottom-width:1px; border-top-width:1px; background-color: #E7CFA3; line-height:140%;">
+				<div style="padding:5px; background-image: url('new-hp/images/layout/header-gradiant.jpg'); background-repeat: no-repeat;">
+
+
+			<h3 class="title">Создание аккаунта</h3>
+			<p>
+
+			</p><center>
+
+			<p>
+
+			<table width="520">
+			<tbody><tr>
+			<td>
+
+			<span>
+
+
+			<img src="BlizzMWF%20Account%20Create%20Account_files/P.gif" width="40" height="38" align="left">lease
+ enter your legal name and email address where you can be reached.  
+Please ensure that the name entered is an exact match to your legal 
+identification.  For security purposes, we may require you to provide 
+legal documentation verifying your identity.
+			<p>
+
+			<b>Fields marked with an <font color="#FF0000">*</font> are required.</b>
+			</p><p>
+
+			</p><center>
+
+			<table width="100%" cellspacing="0" cellpadding="0" border="0">
+			<tbody><tr>
+				<td width="24"><img src="BlizzMWF%20Account%20Create%20Account_files/subheader-left-sword.gif" width="24" height="20"></td>
+				<td width="100%" bgcolor="#05374A"><b class="white">Contact Address:</b></td>
+				<td width="10"><img src="BlizzMWF%20Account%20Create%20Account_files/subheader-right.gif" width="10" height="20"></td>
+			</tr>
+			</tbody></table>
+
+			<table style="border-width: 1px; border-style: dotted; border-color: #928058;" width="520"><tbody><tr><td>
+			<table style="border-width: 1px; border-style: solid; border-color: black; background-image: url('new-hp/images/layout/parch-light2.jpg');" width="100%"><tbody><tr><td>
+			<table cellspacing="0" cellpadding="4" border="0">
+
+			<tbody><tr>
+			      <td width="200" align="right">
+			      <font size="-1" face="arial,helvetica"><span><b>
+			      <font color="#FF0000">*</font> Логин:
+			      </b></span></font>
+			      </td>
+			      <td align="left"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><input name="login" maxlength="32" style="Width:200" taborder="1"></td><td valign="top">
+
+				   </td></tr></tbody></table></td>
+			</tr>
+			<tr>
+			      <td align="right">
+			      <font size="-1" face="arial,helvetica"><span><b>
+			      <font color="#FF0000">*</font> Пароль:
+			      </b></span></font>
+			      </td>
+
+			      <td align="left"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><input name="password" maxlength="32" style="Width:200" taborder="2"></td><td valign="top">
+
+				   </td></tr></tbody></table></td>
+			</tr>
+
+			</tbody></table>
+
+			</td></tr></tbody></table>
+			</td></tr></tbody></table>
+
+			</center>
+
+			<p>
+
+			<table width="100%" cellspacing="0" cellpadding="0" border="0">
+			<tbody><tr>
+				<td width="24"><img src="BlizzMWF%20Account%20Create%20Account_files/subheader-left-sword.gif" width="24" height="20"></td>
+				<td width="100%" bgcolor="#05374A"><b class="white">Email Address:</b></td>
+				<td width="10"><img src="BlizzMWF%20Account%20Create%20Account_files/subheader-right.gif" width="10" height="20"></td>
+			</tr>
+			</tbody></table>
+
+			</p><center>
+			<table style="border-width: 1px; border-style: dotted; border-color: #928058;" width="520"><tbody><tr><td>
+			<table style="border-width: 1px; border-style: solid; border-color: black; background-image: url('new-hp/images/layout/parch-light2.jpg');" width="100%"><tbody><tr><td>
+
+			<table width="100%" cellspacing="0" cellpadding="4" border="0">
+			<tbody><tr>
+			      <td width="200" align="right">
+			      <font size="-1" face="arial,helvetica"><span><b>
+			      <font color="#FF0000">*</font> Email:<br>
+			      </b></span></font>
+			      </td>
+			      <td align="left">
+				  <table cellspacing="0" cellpadding="0" border="0">
+					<tbody><tr>
+						<td><input name="email" maxlength="250" taborder="9" width="130"></td>
+					</tr>
+				  </tbody></table>
+				  </td>
+			</tr>
+
+			</tbody></table>
+
+			</td></tr></tbody></table>
+			</td></tr></tbody></table>
+
+			</center>
+
+			<p>
+
+			<table width="100%" cellspacing="0" cellpadding="0" border="0">
+			<tbody><tr>
+				<td width="24"><img src="BlizzMWF%20Account%20Create%20Account_files/subheader-left-sword.gif" width="24" height="20"></td>
+				<td width="100%" bgcolor="#05374A"><b class="white">Forum Settings:</b></td>
+				<td width="10"><img src="BlizzMWF%20Account%20Create%20Account_files/subheader-right.gif" width="10" height="20"></td>
+			</tr>
+			</tbody></table>
+
+			</p><center>
+			<a name="phone"></a>
+			<table style="border-width: 1px; border-style: dotted; border-color: #928058;" width="520">
+				<tbody><tr>
+					<td>
+						<table style="border-width: 1px; border-style: solid; border-color: black; background-image: url('new-hp/images/layout/parch-light2.jpg');" width="100%">
+							<tbody><tr>
+								<td>
+									<table width="100%" cellspacing="0" cellpadding="4" border="0">
+										<tbody><tr>
+											<td width="200" align="right">
+												<font size="-1" face="arial,helvetica"><span><b>
+												 <font color="#FF0000">*</font> Display Name:<br>
+												</b></span></font>
+												</td>
+												<td align="left">
+												<table cellspacing="0" cellpadding="0" border="0">
+													<tbody><tr>
+														<td><input type="text" name="" maxlength="16"></td>
+													</tr>
+												</tbody></table>
+											</td>
+										</tr>
+										<tr>
+											<td align="right">
+												<font size="-1" face="arial,helvetica"><span><b>
+												Birthday:<br>
+												</b></span></font>
+												</td>
+												<td align="left">
+												<table cellspacing="0" cellpadding="0" border="0">
+													<tbody><tr>
+														<td><input type="text" maxlength="10"></td><td>&nbsp;<span>(dd/mm/aaaa)</span></td>
+													</tr>
+												</tbody></table>
+											</td>
+										</tr>
+										<tr>
+											<td align="right">
+												<font size="-1" face="arial,helvetica"><span><b>
+												Show Birthday:<br>
+												</b></span></font>
+												</td>
+												<td align="left">
+												<table cellspacing="0" cellpadding="0" border="0">
+													<tbody><tr>
+														<td><select><option value="3">Date (dd/mm/yyyy), Age (X years)</option><option value="1">Date (dd/mm/yyyy)</option><option value="2">Age (X years)</option><option value="0">No</option></select></td>
+													</tr>
+												</tbody></table>
+											</td>
+										</tr>
+										<tr>
+											<td align="right">
+												<font size="-1" face="arial,helvetica"><span><b>
+												Gender:<br>
+												</b></span></font>
+												</td>
+												<td align="left">
+												<table cellspacing="0" cellpadding="0" border="0">
+													<tbody><tr>
+														<td><select><option value="0">Female</option><option value="1">Male													</option></select></td></tr>
+												</tbody></table>
+											</td>
+										</tr>
+										<tr>
+											<td align="right">
+												<font size="-1" face="arial,helvetica"><span><b>
+												Time Zone (GMT):<br>
+												</b></span></font>
+												</td>
+												<td width="60%" align="left">
+												<table cellspacing="0" cellpadding="0" border="0">
+													<tbody><tr>
+														<td><select style="width: 250;">
+<option value="-12">(GMT -12:00) Eniwetok, Kwajalein</option><option value="-11">(GMT -11:00) Midway Island, Samoa</option><option value="-10">(GMT -10:00) Hawaii</option><option value="-9">(GMT -9:00) Alaska</option><option value="-8">(GMT -8:00) Pacific Time (US &amp; Canada)</option><option value="-7">(GMT -7:00) Mountain Time (US &amp; Canada)</option><option value="-6">(GMT -6:00) Central Time (US &amp; Canada), Mexico City</option><option value="-5">(GMT -5:00) Eastern Time (US &amp; Canada), Bogota, Lima</option><option value="-4">(GMT -4:00) Atlantic Time (Canada), Caracas, La Paz</option><option value="-3">(GMT -3:00) Brazil, Buenos Aires, Georgetown</option><option value="-2">(GMT -2:00) Mid-Atlantic</option><option value="-1">(GMT -1:00) Azores, Cape Verde Islands</option><option value="0">(GMT +0:00) Western Europe Time, London, Lisbon, Casablanca</option><option value="1">(GMT +1:00) Brussels, Copenhagen, Madrid, Paris</option><option value="2">(GMT +2:00) Kaliningrad, South Africa</option><option value="3">(GMT +3:00) Baghdad, Riyadh, Moscow, St. Petersburg</option><option value="4">(GMT +4:00) Abu Dhabi, Muscat, Baku, Tbilisi</option><option value="5">(GMT +5:00) Ekaterinburg, Islamabad, Karachi, Tashkent</option><option value="6">(GMT +6:00) Almaty, Dhaka, Colombo</option><option value="7">(GMT +7:00) Bangkok, Hanoi, Jakarta</option><option value="8">(GMT +8:00) Beijing, Perth, Singapore, Hong Kong</option><option value="9">(GMT +9:00) Tokyo, Seoul, Osaka, Sapporo, Yakutsk</option><option value="10">(GMT +10:00) Eastern Australia, Guam, Vladivostok</option><option value="11">(GMT +11:00) Magadan, Solomon Islands, New Caledonia</option><option value="12">(GMT +12:00) Auckland, Wellington, Fiji, Kamchatka</option>														</select></td>
+				<script type="text/javascript">
+						document.createaccount.gmt.value='0';
+				</script>
+												
+													
+													</tr>
+												</tbody></table>
+											</td>
+										</tr>
+										<tr>
+											<td align="right">
+												<font size="-1" face="arial,helvetica"><span><b>
+												Enable Private Messages:<br>
+												</b></span></font>
+												</td>
+												<td align="left">
+												<table cellspacing="0" cellpadding="0" border="0">
+													<tbody><tr>
+														<td><select><option value="1"></option><option value="0">Only From Administrators													</option></select></td></tr>
+												</tbody></table>
+											</td>
+										</tr>
+										<tr>
+											<td align="right">
+												<font size="-1" face="arial,helvetica"><span><b>
+												MSN:<br>
+												</b></span></font>
+												</td>
+												<td align="left">
+												<table cellspacing="0" cellpadding="0" border="0">
+													<tbody><tr>
+														<td><input type="text"></td><td>&nbsp;<img src="BlizzMWF%20Account%20Create%20Account_files/im_msn.gif"></td>
+													</tr>
+												</tbody></table>
+											</td>
+										</tr>
+										<tr>
+											<td align="right">
+												<font size="-1" face="arial,helvetica"><span><b>
+												Skype:<br>
+												</b></span></font>
+												</td>
+												<td align="left">
+												<table cellspacing="0" cellpadding="0" border="0">
+													<tbody><tr>
+														<td><input type="text"></td><td>&nbsp;<img src="BlizzMWF%20Account%20Create%20Account_files/im_skype.gif"></td>
+													</tr>
+												</tbody></table>
+											</td>
+										</tr>
+										<tr>
+											<td align="right">
+												<font size="-1" face="arial,helvetica"><span><b>
+												ICQ:<br>
+												</b></span></font>
+												</td>
+												<td align="left">
+												<table cellspacing="0" cellpadding="0" border="0">
+													<tbody><tr>
+														<td><input type="text"></td><td>&nbsp;<img src="BlizzMWF%20Account%20Create%20Account_files/im_icq.gif"></td>
+													</tr>
+												</tbody></table>
+											</td>
+										</tr>
+										<tr>
+											<td align="right">
+												<font size="-1" face="arial,helvetica"><span><b>
+												AIM:<br>
+												</b></span></font>
+												</td>
+												<td align="left">
+												<table cellspacing="0" cellpadding="0" border="0">
+													<tbody><tr>
+														<td><input type="text"></td><td>&nbsp;<img src="BlizzMWF%20Account%20Create%20Account_files/im_aim.gif"></td>
+													</tr>
+												</tbody></table>
+											</td>
+										</tr>
+										<tr>
+											<td align="right">
+												<font size="-1" face="arial,helvetica"><span><b>
+												Yahoo:<br>
+												</b></span></font>
+												</td>
+												<td width="60%" align="left">
+												<table cellspacing="0" cellpadding="0" border="0">
+													<tbody><tr>
+														<td><input type="text"></td><td>&nbsp;<img src="BlizzMWF%20Account%20Create%20Account_files/im_yahoo.gif"></td>
+													</tr>
+												</tbody></table>
+											</td>
+										</tr>
+
+										<tr>
+											<td width="40%" valign="top" align="right">
+												<font size="-1" face="arial,helvetica"><span><b>
+												Signature:<br>
+												</b></span></font>
+												</td>
+												<td width="60%" align="left">
+												<table cellspacing="0" cellpadding="0" border="0">
+													<tbody><tr>
+														<td><textarea rows="4" cols="40"></textarea></td>
+													</tr>
+												</tbody></table>
+											</td>
+										</tr>
+										<tr>
+											<td width="40%" align="right">
+												<font size="-1" face="arial,helvetica"><span><b>
+												Home Page URL:<br>
+												</b></span></font>
+												</td>
+												<td width="60%" align="left">
+												<table cellspacing="0" cellpadding="0" border="0">
+													<tbody><tr>
+														<td><input type="text" size="40"></td>
+													</tr>
+												</tbody></table>
+											</td>
+										</tr>
+										<tr>
+										  <td width="40%" align="right">
+										  <font size="-1" face="arial,helvetica"><span><b>
+										  Skin:<br>
+										  </b></span></font>
+										  </td>
+										  <td 60%="" align="left">
+										  <table cellspacing="0" cellpadding="0" border="0">
+											<tbody><tr>
+												<td><select name="skin" onchange="javascript:changelayout(this.value);">
+												<option value="" selected="selected">Default												</option><option value="Night_Elf">Night_Elf</option><option value="Orc">Orc</option><option value="The_Burining_Crusade">The_Burining_Crusade</option><option value="Undead">Undead</option><option value="Wrath_of_the_Lich_King">Wrath_of_the_Lich_King</option><option value="Wrath_of_the_Lich_King - копия">Wrath_of_the_Lich_King - копия												</option></select>
+
+														</td>
+													</tr>
+												  </tbody></table>
+											  </td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table>
+					</td>
+				</tr>
+			</tbody></table>
+
+			</center>
+
+			<p>
+				</p><center>
+
+			            <table cellspacing="0" cellpadding="0" border="0">
+			            <tbody><tr>
+			<td width="91">
+<!-- BACK-->		<a href="javascript:document.createaccount.save.value='false'; javascript:document.createaccount.step.value='valcode'; javascript:document.createaccount.update.value=''; javascript:createaccount.submit()"><img src="BlizzMWF%20Account%20Create%20Account_files/button-back.gif" alt="Back" cssclass="button" taborder="7" width="91" height="46" border="0"></a>
+<!-- CONTINUE --></td><td width="174"><input type="image" src="BlizzMWF%20Account%20Create%20Account_files/button-continue.gif" name="submit" alt="Continue" class="button" taborder="6" width="174" height="46" border="0">
+</td>
+
+			
+			            </tr>
+			            </tbody></table>
+
+				</center>
+
+			</span>
+			</td>
+			</tr>
+			</tbody></table>
+			</p></center>
+
+			<img src="BlizzMWF%20Account%20Create%20Account_files/index_002.html" width="500" height="1">
+			</div>
+				</div>
+					</div></td></tr>
+					</tbody></table>
+
+
+			</td></tr>
+			</tbody></table>
+			<script type="text/javascript">
+		document.createaccount.lname.value='';
+		document.createaccount.fname.value='';
+		document.createaccount.city.value='';
+		document.createaccount.lo.value='';
+		document.createaccount.shbd.value='';
+		document.createaccount.cflag.src = 'new-hp/images/flags/' + document.createaccount.lo.value + '.gif';
+		document.createaccount.gmt.value='';
+		document.createaccount.shlo.value='';
+		document.createaccount.em.value='';
+		document.createaccount.shem.value='';
+		document.createaccount.shpm.value='';
+		document.createaccount.nick.value='';
+		document.createaccount.bd.value='';
+		document.createaccount.msn.value='';
+		document.createaccount.skype.value='';
+		document.createaccount.aim.value='';
+		document.createaccount.icq.value='';
+		document.createaccount.yahoo.value='';
+		document.createaccount.sig.value='';
+		document.createaccount.weburl.value='';
+		document.createaccount.skin.value='';
+		document.createaccount.gender.value='';
+		</script>
+	</form>

@@ -1,0 +1,114 @@
+							<table cellspacing =" 0" cellpadding =" 0" border =" 0" width ="100%" style="
+							border-top: 1px solid #666666;border-bottom: 1px solid #666666;" background='shared/wow-com/images/parchment/plain/light.jpg'>
+							<tr>
+								<td colspan =" 5"><img src ="new-hp/images/pixel.gif" width =" 1" height =" 12"></td>
+							</tr>
+							<tr>
+							<tr>
+							
+								<td align=center>
+<table cellpadding=0 cellspacing=0 border=0>
+					<tr>
+						<td  style="background-position: 0px -3px;" height=14 width=4  background="shared/wow-com/images/borders/greyandgold/greyandgold-top-left.gif"></td>
+						<td  style="background-position: 50% -3px;"  background="shared/wow-com/images/borders/greyandgold/greyandgold-top.gif"></td>
+						<td  style="background-position: 100% -3px;" width=4  background="shared/wow-com/images/borders/greyandgold/greyandgold-top-right.gif"></td>
+					</tr>
+					<tr>
+						<td background="shared/wow-com/images/borders/greyandgold/greyandgold-left.gif"></td>
+						<td width=170 height=120 align=center valign=middle>
+ <link rel="stylesheet" href="new-hp/css/loginstyle.css" type="text/css" id = "bnetstyle">
+<table border="0" cellpadding="0" cellspacing="0" background = "new-hp/images/UK/act-bg.jpg">
+<form method="post" name="login_form">
+<input type=hidden name="save" value="false">
+<input type=hidden name="sendmail" value="false">
+	<tr>
+		<td valign = "top">
+			<div style = "position: relative;">
+			<div style = "width: 400px; position: absolute; left: 130px; top: 0px;">
+			</div>
+			</div>
+		</td>
+		<td><img src = "new-hp/images/pixel.gif" width = "1" height = "169"></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><img src = "new-hp/images/pixel.gif" width = "203" height = "1"></td>
+		<td>
+			<table border="0" cellpadding="0" cellspacing="0" width = "220">
+			<tr>
+				<td rowspan = "6"><img src = "new-hp/images/pixel.gif" width = "15" height = "110"></td>
+				<td valign="center" align="left" width = "190"><b style = "color:white; font-size:8pt; font-variant: small-caps; letter-spacing:3px;"><label for="username">Account Name:</label>&nbsp;</b><br/><input type="text" name="user" size = "18" MaxLength="16" style = "width: 175px;" value='' tabindex="1"/></td>
+				<td rowspan = "6"><img src = "new-hp/images/pixel.gif" width = "15" height = "1"></td>
+			</tr>
+			<tr>
+				<td align = "left" width = "190"></td>
+			</tr>
+			<tr>
+				<td width = "190"><img src = "new-hp/images/pixel.gif" width = "190" height = "6"></td>
+			</tr>
+			<tr>
+				<td valign="center" align="left" width = "190"><b style = "color:white; font-size:8pt; font-variant: small-caps; letter-spacing:3px;"><label for="password">Activation Code:</label>&nbsp;</b><br/><input type="text" name="actcode" size = "18" MaxLength="32" style = "width: 175px;" value='' tabindex="2"></td>
+			</tr>
+			<tr>
+				<td align = "left" width = "190"><a href ='javascript:void(document.login_form.sendmail.value="true");javascript:void(document.login_form.save.value="true");javascript:document.login_form.submit();' class = "Asmall">Send me an e-mail with Activation Code</a></td>
+			</tr>
+			<tr>
+				<td align = "left">
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td><img src = "new-hp/images/pixel.gif" width = "1" height = "7"></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan = "3" align = "left">
+					<table border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td><INPUT onclick='javascript:void(document.login_form.save.value="true");' TYPE=image src="new-hp/images/pixel.gif" alt = "" value="" style = "width:205px; height:40px;" border = "0" class = "button" tabindex="3"></td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			</table>
+		</td>
+		<td><img src = "new-hp/images/pixel.gif" width = "217" height = "1"></td>
+	</tr>
+	<tr>
+		<td colspan = "3">
+			<table border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td colspan = "3"><img src = "new-hp/images/pixel.gif" width = "1" height = "20"></td>
+			</tr>
+			<tr>
+				<td width = "106"><img src = "new-hp/images/pixel.gif" width = "106" height = "1"></td>
+				<td width = "410" height=115>
+					<small>				  
+					</small>
+				</td>
+				<td width = "124"><img src = "new-hp/images/pixel.gif" width = "124" height = "1"></td>
+			</tr>
+			<tr>
+				<td colspan = "3"><img src = "new-hp/images/pixel.gif" width = "1" height = "30"></td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</form>
+</table>
+
+</td>
+			<td style="background-position: -5px 0px;" background="shared/wow-com/images/borders/greyandgold/greyandgold-right.gif"></td>
+		</tr>
+		<tr>
+			<td  height=14  background="shared/wow-com/images/borders/greyandgold/greyandgold-bot-left.gif"></td>
+			<td  style="background-position: 50% 0px;" background="shared/wow-com/images/borders/greyandgold/greyandgold-bot.gif"></td>
+			<td  style="background-position: 100% 0px;" background="shared/wow-com/images/borders/greyandgold/greyandgold-bot-right.gif"></td>
+</tr>
+</table>
+<br>
+								</td>
+							</tr>
+						</table>
